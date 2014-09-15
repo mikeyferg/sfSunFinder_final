@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Find the warmest cities to go to near San Francisco.">
+		<meta name="keywords" content="San Francisco, Sun, weather, hot, warm">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SF SunFinder</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- My stylesheet -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<header id="header" class="row">
+				<div id="logo" >
+					<a class="col-md-11 col-md-offset-1" href="index.html"></a>
+				</div><!--#logo -->
+			</header><!-- #header -->
+
+			<div id="main" class="row">
+				<div class="sun col-md-4 col-md-offset-4">
+					<a class="sunimage"><img class="img-circle" src="img/sun.jpg" alt="Sun Finder"></a>
+					<h3 class="sunButton">Find me some sun</h3>
+					<p class="distance">
+    					<select name="degree">
+    						<option>25miles</option>
+    						<option>40miles</option>
+    						<option>60miles</option>
+    						<option>100miles</option>
+						</select>
+		    	</div> 
+
+
+				<!-- Single button -
+				<div class="btn-group">
+				  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				  Distance <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="#">25miles</a></li>
+				    <li><a href="#">40miles</a></li>
+				    <li><a href="#">60miles</a></li>
+				    <li><a href="#">100miles</a></li>
+				  </ul>
+				</div> -->
+
+
+
+
+
+
+
+
+		    		<div class="about row">
+						<div class="aboutBox col-md-10 col-md-offset-1">
+							<h3>About SF Sunfinder</h3>
+							<h4>SF SunFinder is for people in San Francisco who want to escape the cold and fog and find some sun!</h4>
+							<p>One of the best things about living in San Francisco is how close you are to so many beautiful sunny places outside of the city.  Sometimes you just want to escap eand find some fun.  Where should you go?  The Easy Bay? Marin? Napa? Palo Alto? Santa Cruz?</p>
+							<h4>SF Sunfinder will help you decide!</h4>
+						</div> <!--.mainBox -->
+					</div> <!-- .aboutMain -->
+		    </div>
+		    <div id="results" class="row">
+				<div class=".col-md-12">
+					<div class="hotslogan">
+						<h3>The heat is on!!</h3>
+					</div><!-- .hotslogan -->
+					
+					<table id="temperatures" class="col-md-6 col-md-offset-3">
+	                	<thead>
+	                    	<tr>
+	                        	<th>City</th>
+	                        	<th>Distance</th>
+	                        	<th>Temperature</th>
+	                   		</tr>
+	               		</thead>
+	                	<tbody>
+	                    	<tr class= "city1">
+	                        	<td class ="name1">City 1</td>
+	                        	<td class="dist1">Dist 1</td>
+	                        	<td class="temp1">Temp 1</td>
+	                    	<tr>
+	                    	<trclass="City2">
+	                        	<td class ="name2">City 2</td>
+	                        	<td class="dist2">Dist 2</td>
+	                        	<td class="temp2">Temp 2</td>
+	                    	<tr>
+	                    	<tr class="city3">
+	                        	<td class ="name3">City 3</td>
+	                        	<td class="dist3">Dist 3</td>
+	                        	<td class="temp3">Temp 3</td>
+	                    	<tr>
+	                    	<tr class="city4">
+	                        	<td class ="name4">City 4</td>
+	                        	<td class="dist4">Dist 4</td>
+	                        	<td class="temp4">Temp 4</td>
+	                    	<tr>
+	                    	<tr class="city5">
+	                        	<td class ="name5">City 5</td>
+	                        	<td class="dist5">Dist 5</td>
+	                        	<td class="temp5">Temp 5</td>
+	                    	<tr>
+	                	</tbody>
+	        		</table>
+        		</div><!-- .span12 -->
+			</div><!-- results -->
+			<footer id="footer" class="row">
+				<ul class="col-md-12">
+					<!--<li><a href="about.html">About</a></li> -->
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</footer>
+		</div><!-- #container -->
+		<script src="js/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>

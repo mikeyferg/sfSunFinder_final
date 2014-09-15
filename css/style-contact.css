@@ -1,0 +1,73 @@
+
+body {
+	background-image: url("../img/background1.jpg");
+ }
+#header {
+	margin-top: 20px;
+}
+#logo a {
+	display: block;
+	width: 320px;
+	height: 60px;
+	background: url("../img/logo.png") no-repeat;
+}
+/* End Header */
+
+
+
+
+/* Begin Main */
+#contact {
+	margin: 150px 0 100px 0;
+	backg round: orange;
+}
+
+#contact form.contact {
+	margin: 0 auto;
+	width: 460px;
+	height: 335px;
+	padding: 5px 0px 5px 20px;
+	background: white;
+	border-radius:5px;
+}
+
+#contact form.contact label {
+	display: block;
+	width: 300px;
+}
+#contact form.contact input, textarea {
+	margin-bottom: 30px;
+	background:#efefef;
+	border-radius:5px;
+	margin-right: 200px;
+}
+
+textarea {
+	width: 400px;
+}
+input {
+	width: 250px;
+}
+
+input:nth-child(3) {
+	padding-right: 50px;
+}
+
+
+/* ------------ Footer --------------- */
+#footer {
+	margin-top: 100px;
+}
+
+#footer ul {
+	list-style-type: none;
+	color: white;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+

@@ -1,0 +1,162 @@
+
+body {
+	background-image: url("../img/background1.jpg");
+}
+
+#header {
+	margin-top: 20px;
+}
+#logo a {
+	display: block;
+	width: 320px;
+	height: 60px;
+	background: url("../img/logo.png") no-repeat;
+	margin-bottom: 40px;
+}
+/*--------- Start Main ----------- */
+#main {
+	margin-top: 40px;
+	dis play: none;
+}
+#main img {
+	display: block;
+	margin: 0 auto;
+
+}
+#main p, #main h3 {
+	text-align: center;
+}
+
+#main h3 a:hover {
+	color: white;
+}
+
+#main .sunButton {
+	margin-top: -175px;
+	margin-bottom: 151px;
+	color: #ffa500;
+}
+
+#main p.distance a {
+	color: white;
+	text-decoration: none;
+}
+
+select {
+	margin-bottom: 100px;
+}
+
+/*--  About Section --------- */
+
+#main .aboutBox {
+	padding: 5px 5px 5px 20px;
+	background: white;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	opacity: .7;
+}
+
+.about h4 {
+	text-align: center;
+}
+
+/* ------------Begin Results ----------------- */
+#results {
+	display: none;
+}
+
+.hotslogan {
+	
+	width: 300px;
+	height: 40px;
+	background: red;
+	margin:0 auto;
+	padding-bottom: 50px;
+	
+		/* Image Replacement */
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("../img/hotslogan1.gif") no-repeat;
+} 
+
+
+#temperatures table,th,td {
+	bor der:1px solid black;
+}
+
+table {
+	margin: 30px auto;
+}
+
+table tr {
+	border-bottom: 1px white solid;
+}
+
+table td {
+	text-align: center;
+}
+
+table td:first-child {
+	text-align: left;
+}
+
+table tr td {
+	width: 80px;
+	background: #23238E;
+	color: white;
+	padding: 15px;
+	text-transform:capitalize;
+}
+
+table tr td:first-child { 
+	width: 300px; 
+}
+
+table th {
+	background: white;
+	color: #23238E;
+	padding: 15px;
+}
+
+
+
+th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*--------------- End results ------------------- */
+
+
+
+/* ------------ Footer --------------- */
+#footer {
+	margin-top: 100px;
+}
+
+#footer ul {
+	list-style-type: none;
+	color: white;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
