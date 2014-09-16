@@ -16,7 +16,6 @@ var weather = function(distance) {
 
 
     var request = {
-    	p: "san+francisco,ca",
     	radius: distance,
     	limit: "5",
     	sort: "temp:-1",
@@ -25,8 +24,7 @@ var weather = function(distance) {
     }
 
    var result = $.ajax({
-   		url: "http://api.aerisapi.com/observations/within?",
-	   	//url: "http://api.aerisapi.com/observations/within?p=san+francisco,ca&radius="+distance+"&limit=5&sort=temp:-1&client_id=DuhRCmbo361kP72sAgSPt&client_secret=diKzMvdY9kP3WtappP65gd8fKXcIE1Umlo2cPlRz",
+   		url: "http://api.aerisapi.com/observations/within?p=san+francisco,ca",
 	    data: request,
 	    dataType: "jsonp",
 	    success: function(result) {

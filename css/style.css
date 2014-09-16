@@ -39,10 +39,8 @@ a.logo:hover {
 		transition: all 1s ease;
 }
 #main img:hover {
-    /*opacity:0.8;
-    -webkit-filter: brightness(120%); */
-    border: 20px solid #ffa500;
-  	border-radius: 50%;
+    -webkit-filter: brightness(120%);
+    
 }
 
 
