@@ -7,33 +7,50 @@ body {
 	padding-bottom: 20px;
 }
 
-
 #header {
 	margin-top: 20px;
 }
-#logo a {
+
+a.logo {
 	margin-bottom: 40px;
 	font-family: 'Anton', sans-serif;
 	font-size: 60px;
 	color: #ffa500;
 }
 
-#logo a:hover {
+a.logo:hover {
 	text-decoration: none;
-	color: white;
+	col or: white;
+	-webkit-filter: brightness(120%);
+
 }
 
 /*--------- Start Main ----------- */
 #main {
-	displ ay: none;
+	dis play: none;
 }
 #main img {
 	display: block;
 	margin: 0 auto;
-
+  	-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
 }
+#main img:hover {
+    /*opacity:0.8;
+    -webkit-filter: brightness(120%); */
+    border: 20px solid #ffa500;
+  	border-radius: 50%;
+}
+
+
 #main p, #main h3, #main h4 {
 	text-align: center;
+}
+p.distance {
+	margin-top: 5px;
 }
 
 #main .sunButton {
@@ -43,13 +60,9 @@ body {
 }
 
 .instructions {
-	backg round: white;
-	padding: 1px 0;
 	margin-bottom: 30px;
-	border-radius: 2px;
 	color: white;
 	text-align: center;
-
 }
 
 .instructions span {
@@ -83,6 +96,7 @@ select {
 	background: red;
 	margin:0 auto;
 	padding-bottom: 50px;
+	margin-top: 40px;
 	
 		/* Image Replacement */
 	text-indent: 100%;
@@ -90,10 +104,6 @@ select {
     white-space: nowrap;
     background: url("../img/hotslogan1.gif") no-repeat;
 } 
-
-table,th,td {
-	bor der:1px solid black;
-}
 
 table {
 	margin: 30px auto;
@@ -112,7 +122,6 @@ table td:first-child {
 }
 
 table tr td {
-	width: 80px;
 	background: #23238E;
 	color: white;
 	padding: 15px;
@@ -143,17 +152,21 @@ th:last-child {
 
 /* ------------ Footer --------------- */
 #footer {
-	margin-top: 100px;
+	margin-top: 20px;
+	display: none;
 }
 
 #footer ul {
 	list-style-type: none;
-	color: white;
 }
 
 #footer a {
-	color: white;
+	color: #ffa500;
+}
+
+#footer a:hover {
 	text-decoration: none;
+	-webkit-filter: brightness(120%);
 }
 
 
