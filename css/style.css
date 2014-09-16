@@ -3,6 +3,11 @@ body {
 	background-image: url("../img/background1.jpg");
 }
 
+.container {
+	padding-bottom: 20px;
+}
+
+
 #header {
 	margin-top: 20px;
 }
@@ -20,7 +25,7 @@ body {
 
 /*--------- Start Main ----------- */
 #main {
-	dis play: none;
+	displ ay: none;
 }
 #main img {
 	display: block;
@@ -63,6 +68,7 @@ select {
 	border-radius:5px;
 	opacity: .7;
 }
+
 
 
 /* ------------Begin Results ----------------- */

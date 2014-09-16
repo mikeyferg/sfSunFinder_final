@@ -15,9 +15,9 @@ $(document).ready(function($) {
 
 
 	$('.dropdown-menu').on('click', 'a', function(){
-		distance = "25mi";
-		//distance = $(this).closest('.sun').find('.distance option:selected').text();
-		//weather(distance);
+		//distance = "25mi";
+		distance = $(this).closest('.sun').find('.distance option:selected').text();
+		weather(distance);
 		$('#main').hide();
 		$(this).closest('li').closest('.dropdown-menu').closest('.btn-group').closest('#main').closest('.container').find('#results').show();
 	})
@@ -51,8 +51,7 @@ var weather = function(distance) {
 		         	$('.dist' + counter).text(parseInt(result.response[i].relativeTo.distanceMI) + " mi");
 		         	$('.temp' + counter).text(result.response[i].ob.tempF + '°'); 
         		} 
-	        }
-	        else {
+        			
 	           alert('An error occurred: ' + result.error.description);
 	        }
      	}
