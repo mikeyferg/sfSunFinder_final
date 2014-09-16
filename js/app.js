@@ -9,8 +9,8 @@ $(document).ready(function($) {
 		
 		distance = $(this).closest('.sun').find('.distance option:selected').text();
 		weather(distance);
-		$(this).closest('.sun').closest('#main').hide();
-		$(this).closest('.sun').closest('#main').closest('.container').find('#results').show();
+		$(this).closest('.sun').closest('#main').fadeOut();
+		$(this).closest('.sun').closest('#main').closest('.container').find('#results').fadeIn();
 	})
 
 
@@ -21,8 +21,6 @@ $(document).ready(function($) {
 		$('#main').hide();
 		$(this).closest('li').closest('.dropdown-menu').closest('.btn-group').closest('#main').closest('.container').find('#results').show();
 	})
-
-
 
 
 

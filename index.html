@@ -5,8 +5,9 @@
 		<meta name="description" content="Find the warmest cities to go to near San Francisco.">
 		<meta name="keywords" content="San Francisco, Sun, weather, hot, warm">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>SF SunFinder</title>
+		<title>San Francisco SunFinder</title>
 		<!-- Latest compiled and minified CSS -->
+		<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<!-- My stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
@@ -16,11 +17,16 @@
 		<div class="container">
 			<header id="header" class="row">
 				<div id="logo" >
-					<a class="col-md-11 col-md-offset-1" href="index.html"></a>
+					<a class="col-md-12" href="index.html">SF SunFinder</a>
 				</div><!--#logo -->
 			</header><!-- #header -->
 
 			<div id="main" class="row">
+	    		<div class="row">
+					<div class="instructions col-md-12">
+						<h3>Select a distance and tap the <span>SUN</span> to get started!</h3>
+					</div> 
+				</div> <!-- .row -->
 				<div class="sun col-md-4 col-md-offset-4">
 					<a class="sunimage"><img class="img-circle" src="img/sun.jpg" alt="Sun Finder"></a>
 					<h3 class="sunButton">Find me some sun</h3>
@@ -31,38 +37,16 @@
     						<option>60miles</option>
     						<option>100miles</option>
 						</select>
+					</p>
 		    	</div> 
-
-
-				<!-- Single button -
-				<div class="btn-group">
-				  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-				  Distance <span class="caret"></span>
-				  </button>
-				  <ul class="dropdown-menu" role="menu">
-				    <li><a href="#">25miles</a></li>
-				    <li><a href="#">40miles</a></li>
-				    <li><a href="#">60miles</a></li>
-				    <li><a href="#">100miles</a></li>
-				  </ul>
-				</div> -->
-
-
-
-
-
-
-
-
-		    		<div class="about row">
-						<div class="aboutBox col-md-10 col-md-offset-1">
-							<h3>About SF Sunfinder</h3>
-							<h4>SF SunFinder is for people in San Francisco who want to escape the cold and fog and find some sun!</h4>
-							<p>One of the best things about living in San Francisco is how close you are to so many beautiful sunny places outside of the city.  Sometimes you just want to escap eand find some fun.  Where should you go?  The Easy Bay? Marin? Napa? Palo Alto? Santa Cruz?</p>
-							<h4>SF Sunfinder will help you decide!</h4>
-						</div> <!--.mainBox -->
-					</div> <!-- .aboutMain -->
-		    </div>
+	    		<div class="about row">
+					<div class="aboutBox col-md-10 col-md-offset-1">
+						<h4>San Francisco SunFinder is for people who want to escape the cold fog and find some sun!</h4>
+						<p>One of the best things about living in San Francisco is how close you are to so many beautiful sunny places outside of the city.  Sometimes you just want to escape and find some fun.  Where should you go?  The Easy Bay? Marin? Napa? Palo Alto? Santa Cruz?</p>
+						<h4>SF Sunfinder will help you decide!</h4>
+					</div> <!--.aboutBox -->
+				</div> <!-- .about -->
+		    </div> <!-- .main -->
 		    <div id="results" class="row">
 				<div class=".col-md-12">
 					<div class="hotslogan">
@@ -108,7 +92,7 @@
         		</div><!-- .span12 -->
 			</div><!-- results -->
 
-		<!--	<footer id="footer" class="row">
+			<!--	<footer id="footer" class="row">
 				<ul class="col-md-12">
 					<li><a href="about.html">About</a></li> 
 					<li><a href="contact.html">Contact</a></li>
